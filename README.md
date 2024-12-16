@@ -1,18 +1,20 @@
-# Eliza 🤖
+# Lorax 🤖
+
+Lorax speaks for what can’t speak for itself, reminding you that innovation and nature can thrive together. With your choices, you can build a world where progress doesn’t come at the planet’s expense.
 
 <div align="center">
-  <img src="./docs/static/img/eliza_banner.jpg" alt="Eliza Banner" width="100%" />
+  <img src="characters/lorax33.jpg" alt="lorax Banner" width="100%" />
 </div>
 
 <div align="center">
-
+  
   📖 [Documentation](https://ai16z.github.io/eliza/) | 🎯 [Examples](https://github.com/thejoven/awesome-eliza)
-
+  
 </div>
 
 ## 🌍 README Translations
 
-[中文说明](./README_CN.md) | [日本語の説明](./README_JA.md) | [한국어 설명](./README_KOR.md) | [Français](./README_FR.md) | [Português](./README_PTBR.md) | [Türkçe](./README_TR.md) | [Русский](./README_RU.md) | [Español](./README_ES.md) | [Italiano](./README_IT.md) | [ไทย](./README_TH.md) | [Deutsch](./README_DE.md)
+[中文说明](./README_CN.md) | [日本語の説明](./README_JA.md) | [한국어 설명](./README_KOR.md) | [Français](./README_FR.md) | [Português](./README_PTBR.md) | [Türkçe](./README_TR.md) | [Русский](./README_RU.md) | [Español](./README_ES.md) | [Italiano](./README_IT.md)
 
 ## ✨ Features
 
@@ -24,9 +26,6 @@
 -   🚀 Highly extensible - create your own actions and clients
 -   ☁️ Supports many models (local Llama, OpenAI, Anthropic, Groq, etc.)
 -   📦 Just works!
-
-## Video Tutorials
-[AI Agent Dev School](https://www.youtube.com/watch?v=ArptLpQiKfI&list=PLx5pnFXdPTRzWla0RaOxALTSTnVq53fKL)
 
 ## 🎯 Use Cases
 
@@ -53,12 +52,12 @@ git clone https://github.com/ai16z/eliza-starter.git
 
 cp .env.example .env
 
-pnpm i && pnpm build && pnpm start
+pnpm i && pnpm start
 ```
 
-Then read the [Documentation](https://ai16z.github.io/eliza/) to learn how to customize your Eliza.
+Then read the [Documentation](https://ai16z.github.io/eliza/) to learn how to customize your Lorax.
 
-### Manually Start Eliza (Only recommended if you know what you are doing)
+### Manually Start Lorax (Only recommended if you know what you are doing)
 
 ```bash
 # Clone the repository
@@ -93,7 +92,7 @@ sh scripts/start.sh
 
 ### Edit the character file
 
-1. Open `packages/core/src/defaultCharacter.ts` to modify the default character. Uncomment and edit.
+1. Open `agent/src/character.ts` to modify the default character. Uncomment and edit.
 
 2. To load custom characters:
     - Use `pnpm start --characters="path/to/your/character.json"`
